@@ -116,13 +116,13 @@
           "name": "React Native",
           "description": "Framework for building native apps using React.",
           "link": "https://reactnative.dev/",
-          "version": "0.81.4"
+          "version": "0.86.3"
         },
         {
           "name": "Expo",
           "description": "Platform for universal React applications.",
           "link": "https://expo.dev/",
-          "version": "54.0.12"
+          "version": "57.0.19"
         }
       ]
     },

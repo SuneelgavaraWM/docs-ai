@@ -44,7 +44,17 @@ For details about the technology stack upgrades, refer to [Technology Stack](/te
     </Accordian>
 
     <Accordian title="Platform">
-      {/* Content */}
+      - ### Expo SDK 57 upgrade <Pill type="mobile" />
+
+        React Native apps now use Expo SDK 57, keeping apps aligned with the latest Expo release.
+
+        For the exact versions, see the [12.1.1 technology stack](/tech-stack?v=12-1-1). For changes in this Expo release, see the [Expo SDK 57 changelog](https://expo.dev/changelog/sdk-57).
+
+      - ### ESLint validation when generating React Native apps <Pill type="mobile" />
+
+        WaveMaker can now run ESLint on your project source files while generating the React Native app, so code issues are caught before the build. If ESLint reports errors, the export fails.
+
+        Enable ESLint and configure its rules in the project's Build Preferences under Settings. Existing projects are not affected until you enable it.
     </Accordian>
 
     <Accordian title="Product Ecosystem">
