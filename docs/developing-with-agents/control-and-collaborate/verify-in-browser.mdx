@@ -14,6 +14,12 @@ The assistant verifies without being asked in two situations:
 
 The assistant verifies once, reports what it found, and asks before fixing anything. Finding a problem does not authorize a fix.
 
+In this recording, the assistant reproduces a reported OTP focus problem, reports an app bug, and asks before fixing it.
+
+<video controls width="100%" muted playsInline poster={require('./assets/vids/verify-in-browser-poster.jpg').default}>
+  <source src={require('./assets/vids/verify-in-browser.mp4').default} type="video/mp4" />
+</video>
+
 ## How verification works
 
 The assistant opens the application in a separate browser window and works inside that window. Verification runs over the connection Studio already holds.
@@ -37,6 +43,8 @@ The report is a finding, not a fix. The assistant asks before editing anything i
 ## Sign in and other prompts
 
 Some pages need a person before they can be exercised: a login form, a one-time password, or a consent screen. When the assistant reaches one, it places a prompt bar in that window and waits for you to complete the step and select **Continue**.
+
+![Login page in the extension window with the prompt bar asking to sign in and then select Continue](./assets/img/sign-in-prompt-bar.png)
 
 The assistant waits up to five minutes. It does not report the task as blocked and does not ask for credentials in the chat. If the wait expires, the verification ends and the report says why.
 
