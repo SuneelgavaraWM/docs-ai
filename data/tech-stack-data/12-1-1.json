@@ -154,10 +154,10 @@
           "version": "3.9.9"
         },
         {
-          "name": "@wavemaker-ai/wm-reactnative-cli",
+          "name": "@wavemaker/wm-reactnative-cli",
           "description": "WaveMaker CLI for React Native projects.",
-          "link": "https://www.npmjs.com/package/@wavemaker-ai/wm-reactnative-cli",
-          "version": "1.0.1"
+          "link": "https://www.npmjs.com/package/@wavemaker/wm-reactnative-cli",
+          "version": "1.9.14"
         },
         {
           "name": "Android Studio",
